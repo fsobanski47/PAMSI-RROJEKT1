@@ -1,0 +1,3 @@
+/home/fsobansk/PAMSI/PROJEKT1/cmake-build-debug/CMakeFiles/PROJEKT1.dir
+/home/fsobansk/PAMSI/PROJEKT1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fsobansk/PAMSI/PROJEKT1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
