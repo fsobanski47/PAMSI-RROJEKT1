@@ -10,6 +10,7 @@ class Node
 public:
     Node *next;
     Node(Packet p) : packet(p), next(nullptr) {}
+    // Element stosu, pojedynczy pakiet + wskaznik na kolejny element
 
     Packet getPacket() const {return packet;}
 };
@@ -20,10 +21,14 @@ class Stack
 
 public:
     Stack() : top(nullptr) {}
+    // Wskaznikowa implementacja stosu skladajacego sie z pakietow
 
     bool isEmpty();
+    // Funkcja sprawdza czy stos jest pusty, true = pusty
     void push(Packet packet);
+    // Funkcja dodaje podany pakiet na szczyt stosu
     void pop();
+    // Funkcja usuwa pakiet ze szczytu
     Packet getTop() {return top->getPacket();}
 };
 
