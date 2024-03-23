@@ -6,5 +6,12 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(PROJEKT1 main.cpp
         stack.cpp
         stack.h
-        cmake-build-debug/packet.cpp
-        cmake-build-debug/packet.h)
+        packet.cpp
+        packet.h
+        sender.cpp
+        sender.h
+        receiver.cpp
+        receiver.h
+        receiver.h
+        packet.cpp
+        sender.h)

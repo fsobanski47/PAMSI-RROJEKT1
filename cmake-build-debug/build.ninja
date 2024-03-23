@@ -61,8 +61,20 @@ build CMakeFiles/PROJEKT1.dir/stack.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Debu
   OBJECT_DIR = CMakeFiles/PROJEKT1.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJEKT1.dir
 
-build CMakeFiles/PROJEKT1.dir/packet.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Debug /home/fsobansk/PAMSI/PROJEKT1/cmake-build-debug/packet.cpp || cmake_object_order_depends_target_PROJEKT1
+build CMakeFiles/PROJEKT1.dir/packet.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Debug /home/fsobansk/PAMSI/PROJEKT1/packet.cpp || cmake_object_order_depends_target_PROJEKT1
   DEP_FILE = CMakeFiles/PROJEKT1.dir/packet.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PROJEKT1.dir
+  OBJECT_FILE_DIR = CMakeFiles/PROJEKT1.dir
+
+build CMakeFiles/PROJEKT1.dir/sender.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Debug /home/fsobansk/PAMSI/PROJEKT1/sender.cpp || cmake_object_order_depends_target_PROJEKT1
+  DEP_FILE = CMakeFiles/PROJEKT1.dir/sender.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PROJEKT1.dir
+  OBJECT_FILE_DIR = CMakeFiles/PROJEKT1.dir
+
+build CMakeFiles/PROJEKT1.dir/receiver.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Debug /home/fsobansk/PAMSI/PROJEKT1/receiver.cpp || cmake_object_order_depends_target_PROJEKT1
+  DEP_FILE = CMakeFiles/PROJEKT1.dir/receiver.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/PROJEKT1.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJEKT1.dir
@@ -75,7 +87,7 @@ build CMakeFiles/PROJEKT1.dir/packet.cpp.o: CXX_COMPILER__PROJEKT1_unscanned_Deb
 #############################################
 # Link the executable PROJEKT1
 
-build PROJEKT1: CXX_EXECUTABLE_LINKER__PROJEKT1_Debug CMakeFiles/PROJEKT1.dir/main.cpp.o CMakeFiles/PROJEKT1.dir/stack.cpp.o CMakeFiles/PROJEKT1.dir/packet.cpp.o
+build PROJEKT1: CXX_EXECUTABLE_LINKER__PROJEKT1_Debug CMakeFiles/PROJEKT1.dir/main.cpp.o CMakeFiles/PROJEKT1.dir/stack.cpp.o CMakeFiles/PROJEKT1.dir/packet.cpp.o CMakeFiles/PROJEKT1.dir/sender.cpp.o CMakeFiles/PROJEKT1.dir/receiver.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/PROJEKT1.dir
   POST_BUILD = :
